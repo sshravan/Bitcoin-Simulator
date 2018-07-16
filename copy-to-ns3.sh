@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # Configure the following values
-RAPIDJSON_FOLDER=~/rapidjson
-NS3_FOLDER=~/workspace/ns-allinone-3.25/ns-3.25
+git clone https://github.com/miloyip/rapidjson.git ./rapidjson
+RAPIDJSON_FOLDER=./rapidjson
+NS3_FOLDER=~/Desktop/courses/798/ns3/ns-allinone-3.28/ns-3.28
+#NS3_FOLDER=~/Desktop/courses/798/ns3/ns-allinone-3.25/ns-3.25
 
 # Do not change
 mkdir $NS3_FOLDER/rapidjson
